@@ -1,0 +1,13 @@
+{
+    "SUCCESS_RESPONSE"          : { "code": 0, "message": "Success", "content": {} },
+    "SUCCESS_DATA_NOT_FOUND"    : { "code": 0, "message": "Data not found", "content": {} },
+    "ERR_RESPONSE"              : { "code": -1, "message": "Something error", "content": {} },
+    "ERR_INVALID_ACTION"        : { "code": -2, "message": "Invalid action", "content": {} },
+    "ERR_INVALID_SUBACTION"     : { "code": -3, "message": "Invalid sub-action", "content": {} },
+    "ERR_BAD_REQUEST"           : { "code": 400, "message": "Invalid request parameter", "content": {} },
+    "ERR_UNAUTHORIZED"          : { "code": 401, "message": "Your session has expired. please login and try again", "content": {} },
+    "ERR_FORBIDDEN"             : { "code": 403, "message": "Access denied", "content": {} },
+    "ERR_REQUEST_TIMEOUT"       : { "code": 408, "message": "Request timeout", "content": {} },
+    "ERR_BAD_GATEWAY"           : { "code": 502, "message": "Something is wrong on back end", "content": {} },
+    "ERR_GATEWAY_TIMEOUT"       : { "code": 504, "message": "Gateway timeout", "content": {} }
+}
