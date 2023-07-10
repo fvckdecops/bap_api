@@ -21,9 +21,9 @@ class BioController {
             const {name, description, subject, email} = req.body;
             const msg = {
                 to: 'bagas@adjipratama.web.id',
-                from: email,
-                subject: name +' :'+ subject,
-                text: email +' '+ description
+                from: 'no-reply@adjipratama.web.id',
+                subject: name +' : '+ subject,
+                text: email +'\n\n '+ description
             }
 
             try {
@@ -32,6 +32,7 @@ class BioController {
                 response = {...message.SUCCESS_RESPONSE};
                 response['message'] = "Email sent.";
             } catch (err) {
+		
                 res.status(400);
             }
 
